@@ -109,10 +109,10 @@ exports/
 !package.json
 !package-lock.json
 
-# Visualizations (keep structure but not large files)
-visualizations/*.png
-visualizations/*.jpg
-visualizations/*.jpeg
+# Visualizations - allow PNG files for reports
+# visualizations/*.png  # Commented out to allow chart images
+# visualizations/*.jpg
+# visualizations/*.jpeg
 
 # Keep the visualizations directory structure
 !visualizations/.gitkeep
