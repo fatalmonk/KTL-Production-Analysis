@@ -1,0 +1,37 @@
+{
+  "name": "ktl-production-analyzer",
+  "version": "1.0.0",
+  "description": "KTL Production Data Analysis System",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "analyze": "ts-node production-analyzer.ts",
+    "insights": "ts-node production-insights.ts",
+    "export": "ts-node data-export.ts",
+    "update": "ts-node data-updater.ts",
+    "build": "tsc",
+    "dev": "ts-node --watch index.ts"
+  },
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "chart.js": "^4.5.0",
+    "chartjs-node-canvas": "^5.0.0",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "googleapis": "^128.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "production",
+    "analysis",
+    "google-sheets",
+    "ktl",
+    "manufacturing"
+  ],
+  "author": "KTL Production Team",
+  "license": "MIT"
+}
